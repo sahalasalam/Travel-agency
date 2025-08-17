@@ -1,0 +1,168 @@
+#img3{
+    float:left;
+    margin-right:20px ;
+    margin-top:100px;
+   
+}
+h1{
+    padding: 10px;
+    color :darkslategrey;
+    text-shadow: 2px 2px 4px white;
+  font-size: 90px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#h{
+    margin-left: 110px;
+    font-size:35px ;
+}
+
+#d{
+    color:brown;
+    margin-left: 20px;
+}
+#w{
+    color:gray;
+    font-size: 20px;
+    text-align:center ;
+     margin-right: 10px;
+}
+p{
+    font-size: 19px;
+    margin-left: 5px;
+}
+
+#head{
+    padding:0px;
+    margin: 0px;
+
+    margin-top:150px;
+    margin-left: 0px;
+    background-image: url("skyyy.jpg");
+    background-size:  cover;
+    height: 405px;
+    
+}
+h1{
+    margin-top: 10px;
+}
+button{
+    margin-left: 400px;
+    border-color:rgb(2, 76, 100);
+    background-color:white;
+     color:rgb(2, 76, 100);
+     border-radius: 10px;
+     font-size:21px ;
+}
+#box{
+  background-color:white;
+  
+  background-size: cover;
+  background-position: center;
+  width:100%;
+  height:60px;
+  position:fixed;
+  top:30px;
+  left:0;
+
+  display:flex;
+
+    /* Push title left, links right */
+    align-items: center; /* Vertically center everything */
+    padding :30px;
+}
+  
+
+.w{
+    color: black;
+  font-size: 20px;
+  text-decoration: none;
+
+
+}
+nav{
+    display: flex;
+    gap:14px;
+   margin-left:70% ;
+position: relative;
+top:-30px;
+left: auto;
+
+}
+.w:hover{
+    text-decoration: underline;
+}
+#box2{
+  background-color:lightblue;
+  
+  background-size: cover;
+  background-position: center;
+  width:100%;
+  height:30px;
+  position:fixed;
+  top:0;
+  left:0;
+
+  display:flex;
+
+  justify-content: space-between;  /* Push title left, links right */
+    align-items: center; /* Vertically center everything */
+    padding :30px;
+}
+#para{
+    margin-left:0px ;
+    font-size: 30px;
+
+}
+#q{
+
+    color:darkgreen;
+    font-size: 35px;
+    margin-left: 780px;
+    margin-top: -25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+#box1{
+    gap:10px;
+    display:flex; /* This makes all direct child elements of #box1 line up horizontally by default  */
+   /*flex-direction: row;  flex-direction: row;  flex-direction: column;*/
+
+}
+#box1 img{
+   
+  
+height:330px;
+    width:320px;
+    display:block;
+    object-fit: cover;
+}
+#package{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 33px;
+    text-align: center;
+
+}   
+#text{
+    display:flex;
+    gap:260px;
+}
+#k{
+    margin-left: 130px;;
+}
+.para{
+    font-size: 30px;
+}
+img:hover{
+    border-style:solid;
+    border-color:rgb(1, 43, 57) ;
+    border-width: 5px;
+    border-radius: 7px;
+}
+button:hover{
+    background-color: rgb(236, 166, 166);
+}  
+#icon{
+    margin-left: 950px;
+
+}
